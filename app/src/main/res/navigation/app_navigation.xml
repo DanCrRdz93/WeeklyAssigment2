@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    app:startDestination="@id/DetailsFragment"
+
+    android:id="@+id/app_navigation">
+
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.daniel.weeklyassigment2.ui.DetailsFragment"
+        android:label="Main Fragment"
+        tools:layout="@layout/fragment_details">
+
+        <action
+            android:id="@+id/action_mainFragment_to_addFragment"
+            app:destination="@+id/AddFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/AddFragment"
+        android:name="com.daniel.weeklyassigment2.ui.AddFragment"
+        android:label="Details Fragment"
+        tools:layout="@layout/fragment_add">
+
+        <action
+            android:id="@+id/action_addFragment_to_detailsFragment"
+            app:destination="@+id/DetailsFragment"/>
+    </fragment>
+
+
+</navigation>

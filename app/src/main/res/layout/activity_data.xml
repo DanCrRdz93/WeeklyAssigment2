@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.DataActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_order"
+        app:title="@string/bar_title"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+</LinearLayout>

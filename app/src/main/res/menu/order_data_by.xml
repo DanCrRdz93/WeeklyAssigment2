@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/order_by_date"
+        android:title="@string/item_sorted_date"/>
+    <item
+        android:id="@+id/order_by_name"
+        android:title="@string/item_sorted_name"/>
+</menu>

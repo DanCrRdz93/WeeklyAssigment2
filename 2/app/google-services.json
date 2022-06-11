@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76962282377",
+    "project_id": "weeklyassigment2",
+    "storage_bucket": "weeklyassigment2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76962282377:android:67ca82fc0563125c10ff58",
+        "android_client_info": {
+          "package_name": "com.example.weeklyassigment2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76962282377-ar5f0p9sckq85rd4tdilplto82jm0b0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-TYcgCQUi2ryG4iNVS0WMzxDFf1yIuik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76962282377-ar5f0p9sckq85rd4tdilplto82jm0b0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
