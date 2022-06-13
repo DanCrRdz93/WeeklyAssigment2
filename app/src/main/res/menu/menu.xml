@@ -3,14 +3,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
         <item
-            android:id="@+id/DetailsFragment"
-            android:title="@string/item_details"
-            android:icon="@drawable/ic_baseline_date_range_24"/>
+            android:id="@+id/MainFragment"
+            android:title="@string/item_events"
+            android:icon="@drawable/ic_baseline_auto_awesome_motion_24"/>
 
         <item
             android:id="@+id/AddFragment"
             android:title="@string/item_add"
             android:icon="@drawable/ic_baseline_add_box_24"/>
+
+        <item
+            android:id="@+id/DetailsFragment"
+            android:title="@string/item_details"
+            android:icon="@drawable/ic_baseline_manage_search_24"/>
 
 
 

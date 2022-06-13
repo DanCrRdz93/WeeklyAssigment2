@@ -26,7 +26,7 @@ class AddFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        val SimpleF = SimpleDateFormat("MM/dd/yyyy")
+        val SimpleF = SimpleDateFormat("MM-dd-yyyy")
         var date: String
         binding.calendarEvent.setOnDateChangeListener { view, year, month, dayOfMonth ->
             date = "${month+1}/$dayOfMonth/$year"
@@ -58,7 +58,7 @@ class AddFragment : Fragment() {
 
             Event(name, category, date).also {
                 findNavController().navigate(
-                    R.id.action_addFragment_to_detailsFragment, bundleOf(
+                    R.id.action_addFragment_to_mainFragment, bundleOf(
                         Pair(EVENT_DATA, it)
                     ))
             }

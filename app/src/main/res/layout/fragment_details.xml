@@ -1,44 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".ui.DetailsFragment">
-    
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/menu_order"
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/nameTxtViewTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="10"
         android:background="@color/gray_black"
-        app:titleTextColor="@color/gray_light"/>
+        android:textColor="@color/gray_black"
+        android:text="@string/titleName"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/nameTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:textColor="@color/gray_black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/categoryTxtViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_black"
+        android:textColor="@color/gray_black"
+        android:text="@string/titleCategory"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
 
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_weight="80"
-            android:layout_height="500dp">
+    <TextView
+        android:id="@+id/categoryTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:textColor="@color/gray_black"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/todo_recycler"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"/>
-        </ScrollView>
+    <TextView
+        android:id="@+id/dateTxtViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_black"
+        android:textColor="@color/gray_black"
+        android:text="@string/titleDate"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
 
+    <TextView
+        android:id="@+id/dateTxtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:textColor="@color/gray_black"
+        android:textSize="15sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
 
         <Button
-            android:id="@+id/create_event"
+            android:id="@+id/editBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="10"
-            android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:text="CREATE EVENT"
-            android:backgroundTint="@color/red"/>
+            android:layout_weight="50"
+            android:backgroundTint="@color/dark_blue"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/ic_baseline_mode_edit_24"
+            android:text="@string/edit"/>
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:backgroundTint="@color/red"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:drawableTop="@drawable/ic_baseline_delete_24"
+            android:text="@string/delete"/>
 
 
+    </LinearLayout>
 
 </LinearLayout>

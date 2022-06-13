@@ -2,8 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/order_by_date"
-        android:title="@string/item_sorted_date"/>
+        android:title="@string/item_sorted_date"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:iconTint="@color/white"
+        android:iconTintMode="@color/white"/>
     <item
         android:id="@+id/order_by_name"
-        android:title="@string/item_sorted_name"/>
+        android:title="@string/item_sorted_name"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"/>
 </menu>

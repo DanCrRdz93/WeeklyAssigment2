@@ -5,11 +5,13 @@
       <map>
         <entry key="app/src/main/res/layout/activity_data.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_data2.xml" value="0.16574167507568113" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.24003623188405798" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1392425537109375" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.17507568113017155" />
         <entry key="app/src/main/res/layout/fragment_add.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.17507568113017155" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.24003623188405798" />
-        <entry key="app/src/main/res/layout/todo_item.xml" value="0.17507568113017155" />
+        <entry key="app/src/main/res/layout/todo_item.xml" value="0.34502044431376533" />
         <entry key="app/src/main/res/menu/menu.xml" value="0.35444330949948927" />
         <entry key="app/src/main/res/menu/order_data_by.xml" value="0.3421875" />
       </map>

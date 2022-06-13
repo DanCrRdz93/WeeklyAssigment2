@@ -1,14 +1,17 @@
 <resources>
     <string name="app_name">WeeklyAssigment 2</string>
-    <string name="bar_title">Main</string>
+    <string name="bar_title">Weekly Assigment 2</string>
 
-    <string name="item_home">Home</string>
+    <string name="item_events">Events</string>
     <string name="item_add">Add</string>
     <string name="item_details">Details</string>
     <string name="item_sorted_name">Sorted by name</string>
     <string name="item_sorted_date">Sorted by date</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titleName">Name:</string>
+    <string name="titleCategory">Category:</string>
+    <string name="titleDate">Date:</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
 
 
 </resources>

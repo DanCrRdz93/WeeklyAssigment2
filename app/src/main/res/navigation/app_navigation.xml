@@ -3,31 +3,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
-    app:startDestination="@id/DetailsFragment"
+    app:startDestination="@id/MainFragment"
 
     android:id="@+id/app_navigation">
 
     <fragment
-        android:id="@+id/DetailsFragment"
-        android:name="com.daniel.weeklyassigment2.ui.DetailsFragment"
+        android:id="@+id/MainFragment"
+        android:name="com.daniel.weeklyassigment2.ui.MainFragment"
         android:label="Main Fragment"
-        tools:layout="@layout/fragment_details">
+        tools:layout="@layout/fragment_main">
 
         <action
             android:id="@+id/action_mainFragment_to_addFragment"
             app:destination="@+id/AddFragment"/>
+        <action
+            android:id="@+id/action_mainFragment_to_detailsFragment"
+            app:destination="@+id/DetailsFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/AddFragment"
         android:name="com.daniel.weeklyassigment2.ui.AddFragment"
-        android:label="Details Fragment"
+        android:label="Add Fragment"
         tools:layout="@layout/fragment_add">
 
         <action
-            android:id="@+id/action_addFragment_to_detailsFragment"
-            app:destination="@+id/DetailsFragment"/>
+            android:id="@+id/action_addFragment_to_mainFragment"
+            app:destination="@+id/MainFragment"/>
     </fragment>
+
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.daniel.weeklyassigment2.ui.DetailsFragment"
+        android:label="Details Fragment"
+        tools:layout="@layout/fragment_details">
+
+        <action
+            android:id="@+id/action_detailsFragment_to_mainFragment"
+            app:destination="@+id/MainFragment"/>
+        <action
+            android:id="@+id/action_detailsFragment_to_addFragment"
+            app:destination="@+id/AddFragment"/>
+    </fragment>
+
 
 
 </navigation>

@@ -37,11 +37,13 @@ class EventAdapter (
 
 
     fun updateEventsList(event: Event) {
+        var stringList: MutableList<String> = mutableListOf<String>()
+
         eventsList.add(event)
         notifyItemInserted(eventsList.indexOf(event))
 
-        registro(event.name,event.date,event.category)
-
+        //registro(event.name,event.date,event.category)
+        println(eventsList)
     }
 
     fun registro(name:String,date:String,category: String){
